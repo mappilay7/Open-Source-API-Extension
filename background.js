@@ -7,5 +7,6 @@ function openPage() {
 }
 
 //The function clearly declared
+// listener works when clicked the icon in tab and opens view.html page.
 
 browser.browserAction.onClicked.addListener(openPage); //Adds a listener to this event.
