@@ -11,7 +11,9 @@
 
 
 
-  "permissions": ["activeTab", "bookmarks", "storage"],
+  "permissions": ["activeTab", "bookmarks", "storage" , "webRequest"],
+  
+  //added a webRequest permissions to check view in html page. Laxmann
 
 
 
