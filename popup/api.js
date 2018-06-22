@@ -1,4 +1,5 @@
 //alert(data);
+//function API done by laxmann.
 function api(){
 
 	 var path = "http://api.openweathermap.org/data/2.5/weather?q=penang&APPID=f6b7c962f75378f682396c5abee3f7b2&units=metric";
