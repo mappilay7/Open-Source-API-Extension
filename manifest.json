@@ -1,8 +1,8 @@
 {
 
-  "description": "Demonstrating toolbar buttons",
+  "description": "Weather temperature is displayed",
   "manifest_version": 2,
-  "name": "button-demo",
+  "name": "Weather API",
   "version": "1.0",
 
  "background": {
