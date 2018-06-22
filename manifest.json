@@ -11,7 +11,7 @@
 
 
 
-  "permissions": ["activeTab", "bookmarks", "storage" , "webRequest"],
+  "permissions": ["activeTab", "bookmarks", "storage" , "webRequest"], // to declare permission (Lakessh)
   
   //added a webRequest permissions to check view in html page. Laxmann
 
