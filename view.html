@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Weather</title>
+	<title>Weather API</title> 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">    </script>
 <script type="text/javascript">
 	var path = "http://api.openweathermap.org/data/2.5/weather?q=penang&APPID=f6b7c962f75378f682396c5abee3f7b2&units=metric";
     $.getJSON(path, function (data) {
     	//data = JSON.stringify(data);
     	//alert(JSON.stringify(data));
-        var textNode = JSON.stringify(data.weather[0].main);
+        var textNode = JSON.stringify(data.weather[0].main); 
         var textNode1 = JSON.stringify(data.main.temp);
  		$("#weather").append(textNode);
-        $("#temp").append(textNode1);
+        $("#temp").append(textNode1); 
 
     });
 </script>
@@ -21,7 +21,7 @@
 </head>
 <body>
 	<h1>Weather Details</h1>
-<h1 id="weather" style="font-size: 60px; color: red;"></h1>
-<h1 id="temp" style="font-size: 60px; color: red;"></h1>
+<h1 id="weather" style="font-size: 60px; color: blue;"></h1>
+<h1 id="temp" style="font-size: 50px; color: red;"></h1>
 </body>
 </html>
