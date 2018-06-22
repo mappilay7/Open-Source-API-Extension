@@ -1,3 +1,4 @@
+// this is manifest file.
 {
 
   "description": "Weather temperature is displayed",
@@ -11,7 +12,8 @@
 
 
 
-  "permissions": ["activeTab", "bookmarks", "storage" , "webRequest"], // to declare permission (Lakessh)
+  "permissions": ["activeTab", "bookmarks", "storage"], // to declare permission (Lakessh)
+  //removed "webRequest" Permission after testing. Laxmann
   
   //added a webRequest permissions to check view in html page. Laxmann
 
@@ -22,7 +24,7 @@
  
   "browser_action": {
     "default_icon": {
-      "16": "icons/page-16.png",
+      "16": "icons/page-16.png", 
       "32": "icons/page-32.png"
     }
   }
