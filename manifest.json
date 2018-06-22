@@ -21,7 +21,7 @@
 
   
   // this is browser_action
-  
+  //uses 2 icons for now.
  
   "browser_action": {
     "default_icon": {
