@@ -2,7 +2,7 @@
 //view.html page has been created by laxmann.
 function openPage() {
   browser.tabs.create({
-    url: "view.html" // view html will open the main page 
+    url: "http://api.openweathermap.org/data/2.5/weather?q=penang&APPID=f6b7c962f75378f682396c5abee3f7b2&units=metric" // view html will open the main page 
   });
 }
 
